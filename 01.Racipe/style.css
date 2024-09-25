@@ -1,0 +1,124 @@
+@font-face {
+    font-family:Young-serif;
+    src: url(/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family:Outfit;
+    src: url(/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #f2e4d8;
+    box-sizing: border-box;
+    font-family: Outfit;
+    color: rgb(98, 97, 97);
+}
+
+/* this is desktop size */
+
+.box{
+    max-width: 770px;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 130px auto 0;
+}
+
+.image img{
+    width: 89%;
+    display: block;
+    margin:40px auto;
+    border-radius: 10px;
+}
+
+.description{
+    margin: -5px 40px;
+    /* font-family: Outfit; */
+}
+
+.description h1{
+    font-size: 40px;
+    margin-top: -5px;
+    color: rgb(63, 63, 63);
+}
+
+h1{
+    font-family: Young-serif;
+    font-weight: 400;
+}
+.info{
+    /* font-family: Outfit; */
+    margin: 30px 40px 0;
+    background-color:#fff7fc ;
+    padding:10px 20px;
+    border-radius: 10px;
+}
+
+.info h2{
+    text-indent: 10px;
+    color: #874561;
+}
+
+.info li{
+    color: #874561;
+}
+
+.info li p{
+    color: rgb(98, 97, 97);
+    text-indent: 3%;
+}
+
+.about{
+    margin: 0 40px;
+    color:#6b4340;
+    /* font-family: Outfit; */
+}
+
+
+.about li{
+    color: #6b4340;
+}
+
+.about li p{
+    color: rgb(98, 97, 97);
+    text-indent: 3%;
+}
+
+.about p{
+    color: rgb(98, 97, 97);
+}
+
+.nutri-element {
+    margin-left: 30px;
+}
+
+.nutri{
+    margin-bottom: 40px;
+}
+span{
+    color: #6b4340;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+    font-weight: 600;
+    
+}
+
+
+.hr{
+    margin: 40px;
+}
+
+hr{
+    height: .1px;
+    background-color: rgba(128, 128, 128, 0.3);
+    border-width:0 ;
+}
+
+
+/* this is mobile version */
+
+@media only screen and (max-width:376) {
+    
+}
